@@ -1,0 +1,21 @@
+* { padding: 0; margin: 0;}
+
+body {font-family: Arial, Tahoma, Serif;color: white;}
+
+nav {display: flex; justify-content: space-between; padding: 1rem 2rem; background: #d69b10;}
+
+nav ul {display: flex; list-style: none;}
+
+nav li {padding-left: 1rem;}
+
+.parent {
+  text-align: center;
+}
+
+.box {
+  height: 450px; width: 200px; margin: 20px 0px;
+  padding: 10px 20px; border: 1px solid #d69b10; display: inline-block;
+  background: center; text-align: left; color: black; float: left; margin: 10px 10px;}
+
+.moreinfo {height: 25px; width: 200px; display: inline-block; background: center;
+  color: white; background-color: #d69b10; text-align: center;}
